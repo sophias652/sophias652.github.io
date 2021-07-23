@@ -1,0 +1,300 @@
+/* STYLE SECTIONING TAGS */
+/*total background*/
+body {
+ background-image:url("assets/virusbackground.jpg");
+}
+/* STYLE TEXT */
+  /* MAIN IDEA H1 HEADING */
+h1 {
+  color: navy;
+  padding: 1em;
+  font-family: 'Rubik', "sans-serif";
+  text-align: center;
+  background-color: lightsteelblue;
+  margin: 1em;
+   border-radius: 7%;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+}
+.description {
+  margin: 0.5em;
+  padding: 0.5em;
+  
+}
+
+/* SMALLER BLURB HEADING - INITIAL INFO */
+header {
+  background-color: lavender;
+  color: black;
+  font-family: 'Rubik', "sans-serif";
+  margin: 0.75em;
+  padding-bottom:1em;
+  padding-top: 1em;
+  padding: 0.75em;
+  text-align: center;
+   border-radius: 7%;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+}
+
+#smallblurb {
+ background-color: navy;
+ padding: 1em;
+  border-radius: 7%;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+  margin: 1em;
+  text-align: center;
+  font-family: 'Rubik', "sans-serif";
+  color: white;
+  border: 2px solid blue;
+}
+/* STYLE IMAGES */
+/*Front Page Images*/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+img{
+  width: 80%;
+  height:80%;
+  border: 4px solid blue; 
+  border-radius: 7%;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-right: 1em;
+}
+
+/* Special Image format for certain images*/
+#children {
+  width: 100%;
+  height: 1em; 
+  padding: 1em;
+  margin: 1em;
+  border: 2px solid blue;
+}
+
+
+/* STYLE NAV BAR */
+nav {
+  text-align: center;
+}
+
+
+ul{
+  list-style-type: none;
+  background-color: navy;
+  overflow: hidden;
+  padding:1em;
+  text-align:center;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size:1.4em;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-family: 'Rubik', "sans-serif" }
+
+li a:hover {
+  background-color: lightblue;
+  color:black;
+  padding:0.5em;
+  font-family: 'Rubik', "sans-serif";
+  border-radius: 7%;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+}
+/*flex key feature*/
+@media screen and (max-width: 850px){
+  .flex-container{
+    flex-wrap: wrap;
+  }
+}
+/*other lists and formats for the "take action" page*/
+h3{
+  margin:1em;
+  padding: 1em;
+  background-color: white;
+  color:black;
+  border-radius: 7%;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-right: 1em;
+  border:4px solid black;
+}
+#navbar{
+  display:inline;
+  color:white;
+  padding: 1em;
+  margin:1em;
+  text-align: center;
+}
+
+.listaction{
+  display:inline-block;
+  text-align:left;
+}
+h4{ 
+  display: -webkit-box;
+  overflow: hidden;
+  padding:0.5em;
+  margin:0.5em;
+  text-align:center;
+  color:white;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 1%;
+}
+
+.two{
+text-align: center;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  font-size:1.4em;
+  padding: 1em;
+
+  }
+
+#twochildren{
+ width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+
+#over{
+  font-style: italic;
+}
+
+#ground{
+  width: 60%;
+  height:60%;
+  border: 4px solid blue;
+}
+.references{
+  text-decoration: underline;
+  color: white;
+  display: inline;
+}
+
+#links{
+  display: inline;
+  margin:1em;
+  padding:1em;
+  color:white;
+  text-decoration:underline;
+  background-color: aliceblue;
+}
+/*factsbar format*/
+.factsbar{
+  background-color:aliceblue;
+  color:black;
+  font-family:'Rubik', "sans-serif";
+  margin:1em;
+  padding:1em;
+  border:2px solid black;
+  border-radius: 7%;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+}
+/*button styling*/
+button { 
+  text-align:center;
+  margin-top: 3px;
+  background-color: darkblue;
+  border-radius: 15%;
+  animation-delay: 1s
+  font-size: 25px;
+  font-family: 'Rubik', "sans-serif";
+  color:white;
+  border-radius:7%;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+}
+
+button:hover{
+  background-color: cornflowerblue;
+  color: black;
+} 
+
+.factsbar{
+  text-align:center;
+  background-color:beige;
+  margin:1em;
+  padding:1em;
+  border-radius:7%;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+}
+
+main{
+  
+  border-radius:7%;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+/*fact displaying format*/
+.disfact{
+ color:black;
+ text-align:center;
+ margin:1em;
+ padding:1em;
+  font-family:'Rubik', "sans-serif";
+  background-color:white;
+  font-size:1em;
+  border-top-left-radius: 1em; 
+  border-top-right-radius:1em;
+  border-bottom-left-radius: 1em; 
+  border-bottom-right-radius:1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  }
+/*take action page centered heading for bulleted list*/
+.what{
+  text-align:center;
+}
